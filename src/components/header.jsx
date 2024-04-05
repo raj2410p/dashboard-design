@@ -78,7 +78,7 @@ function Header() {
               <span >Quick Start</span>
             </button>
             <img
-              src="/src/assets/canva.jpg"
+              src="https://github.com/raj2410p/dashboard-design/blob/main/src/assets/canva.jpg?raw=true"
               alt="User"
               className=" w-7 h-7 sm:w-12 sm:h-12 rounded-full "
             />

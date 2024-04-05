@@ -11,7 +11,7 @@ function App() {
     {
       id: 1,
       title: "Default Project",
-      storyboard: "../src/assets/unplash.jpg",
+      storyboard: "https://github.com/raj2410p/dashboard-design/blob/main/src/assets/unplash.jpg?raw=true",
       updatedAt: "19 Mar 3:54",
     },
   ]);
@@ -47,7 +47,7 @@ function App() {
     const newProject = {
       id: projects.length + 1, // Generate unique ID
       title: newProjectData.title,
-      storyboard: "", // Placeholder until actual storyboard is created
+      storyboard: "https://github.com/raj2410p/dashboard-design/blob/main/src/assets/unplash.jpg?raw=true", // Placeholder until actual storyboard is created
       aspectRatio: newProjectData.aspectRatio,
       useAIAssistant: newProjectData.useAIAssistant,
       updatedAt: new Date().toLocaleString(), // Set creation date
@@ -66,7 +66,7 @@ function App() {
           <div className="flex items-center gap-x-1">
             <img
               className="w-10 h-10 sm:w-12 sm:h-12 rounded-full"
-              src="/src/assets/canva.jpg"
+              src="https://github.com/raj2410p/dashboard-design/blob/main/src/assets/canva.jpg?raw=true"
               alt="User"
             />
             <h1 className="text-lg font-bold sm:text-2xl">Adam Cooper Team</h1>
